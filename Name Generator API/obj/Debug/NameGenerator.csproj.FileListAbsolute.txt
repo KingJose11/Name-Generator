@@ -1,0 +1,5 @@
+c:\users\brynden\documents\visual studio 2013\NameGenerator\NameGenerator\bin\Debug\NameGenerator.dll
+c:\users\brynden\documents\visual studio 2013\NameGenerator\NameGenerator\bin\Debug\NameGenerator.pdb
+c:\users\brynden\documents\visual studio 2013\NameGenerator\NameGenerator\obj\Debug\NameGenerator.csprojResolveAssemblyReference.cache
+c:\users\brynden\documents\visual studio 2013\NameGenerator\NameGenerator\obj\Debug\NameGenerator.dll
+c:\users\brynden\documents\visual studio 2013\NameGenerator\NameGenerator\obj\Debug\NameGenerator.pdb
