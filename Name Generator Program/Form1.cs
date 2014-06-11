@@ -23,6 +23,8 @@ namespace NameGeneratorDemo
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Timer myTimer = new Timer();
+            
             radioButton1.Select();
             comboBox1.Enabled = true;
 
@@ -31,6 +33,21 @@ namespace NameGeneratorDemo
                 comboBox1.Items.Add(patterns[i]);
             }
             comboBox2.SelectedItem = "Generated Names...";
+            
+            myTimer.Enabled = true;
+        }
+
+        private void myTimer_Tick(object sender, EventArgs e)
+        {
+            
+            for (int i = 0; i < textbox3.Length; i++)
+            {
+                if (textbox3.Text[i] == "a" | "e" | "i" | "o" | "u") {
+                    textbox3.Text = "";
+                }
+                // Repeat for Vowels and Numbers
+            }
+            
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
